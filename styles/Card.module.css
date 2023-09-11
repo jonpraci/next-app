@@ -1,0 +1,31 @@
+
+
+.pairCard{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px  0px;
+    cursor: pointer;
+}
+.card{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.item{
+    width: 33%;
+    padding: 10px;
+}
+
+.singleCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}

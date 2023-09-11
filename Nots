@@ -1,0 +1,8 @@
+* Next js allow us to make cach memory for img but not convert it to webp but if we want to convert to webp we should use Image component from next/component
+
+* But with image from image/next we can use 'minimumCacheTTL: 60,' in next configration 
+also you must add the domian to the next config like this 
+'domains: ['via.placeholder.com'],'
+to tell next cach which domian will cached
+
+* With fetching data we can handel it with server side "pre-rendering"
