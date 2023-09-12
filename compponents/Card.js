@@ -9,11 +9,7 @@ export default function MediaCard({ title, image, thumbnailUrl }) {
     <Card style={{ minHeight: '300px', overflow: 'auto' }}>
       <figure>
         <Image
-        priority={true}
-        layout="responsive"
-        objectFit="cover"
-        objectPosition="center top"
-        // className='img'
+          priority={true}
           src={image}
           alt={title} // Use a descriptive alt text
           width={300} // Adjust to your desired size
